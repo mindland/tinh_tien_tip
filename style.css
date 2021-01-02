@@ -1,0 +1,48 @@
+.result {
+    display: block !important;
+}
+
+body {
+    /* background-color: #640006; */
+    background: url(/banhmi.jpg);
+}
+
+.container{
+    padding: 20px 300px;
+}
+
+.container .moneyTip{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container .moneyTip > h5 {
+    background-color: #23000F;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+form {
+    background-color: #F5F5F5;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+form input,
+form select
+{
+    width: 60% !important;
+}
+
+#moneyShare {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+form select{
+    padding-top: 0 !important ;
+    padding-bottom: 0 !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+}
